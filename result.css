@@ -1,0 +1,155 @@
+ /* navbar */
+ h2{
+    height:30px;
+    background-color: maroon;
+    color: white;
+    padding: 6px;
+    size :30px;
+    margin:0%;
+}
+/* First Section */
+.First{
+    display: flex;
+    height: 70px;
+    box-shadow: 2px 2px 4px rgba(0, 0,0, 0.3);
+    
+}
+
+h1{
+
+    background-color: white;
+    color:grey;
+    size:20px;
+    cursor: pointer;
+}
+
+/* Results */
+
+h3{
+    margin-left: 650px;
+    margin-top: 40px;
+    font-size: 30px;
+    height: 10px;
+    padding: 10px;
+    
+}
+
+.Container{
+   
+    display: flex;
+    height: 500px;
+    margin-left:500px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: white;
+    margin-bottom: -80px;
+    
+}
+
+
+
+
+#StudentForm{
+    width: 500px;
+  height: fit-content;
+    padding: 20px;
+    padding-right: 20px;
+    border: 1px solid maroon;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0 , 0, 0.2);
+
+}
+
+
+#StudentForm label{
+    display: block;
+    width: 150px;
+    text-align: leftt;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    
+}
+
+#StudentForm input{
+    width:100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#StudentForm button{
+    background-color: maroon;
+    align-items: center;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    height: 15px;
+    width: 180px;
+    text-align: center;
+    margin-bottom: 5px;
+    padding-bottom: 22px;
+    justify-self: center;
+}
+
+
+/* results card */
+
+.ResultCard{
+border: 5px solid maroon;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0px 0px 5px rgba(0, 0 , 0, 0.2);
+display: none;
+}
+
+.ResultCard h5{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 60px;
+    color: maroon;
+    margin-top: 5px;
+
+}
+.ResultCard p{
+    font-size: 30px;
+    color: maroon;
+}
+
+.ResultCard table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+.ResultCardt th, .ResultCard td{
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.switch-link{
+    
+    text-decoration: none;
+    color:rgb(39, 39, 54);
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+
+/* Footer */
+.footer{
+    background-color: maroon;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .social-links{
+    margin-top: 10px;
+  }
+  .social-link{
+    margin:0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link rel="Stylesheet" href="result.css">
+</head>
+<body>
+    <!--navbar-->
+    <div class="navbar1">
+        <center><h2>VITTI: Results</h2></center>
+        </div>
+    
+    <!--First section-->
+    
+        <div class="First">
+                <h1>
+                    <center>
+                        Student Evaluation Program:
+                        Center of Enhancement and Learning
+                    </center>  
+                </h1>
+                </div>
+    <!-- REsults -->
+    <h3>Enter Student Details</h3>
+    <div class="Container" id="container">
+            
+            <form id="StudentForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="rollNo">University Roll No:</label>
+                <input type="number" id="rollNo" name="rollNo" required><br><br>
+
+                <label for="sem">Semester:</label>
+                <input type="number" id="sem" name="sem" required><br><br>
+
+                <button type="button" id="SubmitBtn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- REsult card -->
+    <div class="ResultCard" id="result">
+        <h5>VITTI</h5>
+        <center><p>School Of Computer Science and Engineering
+            Government P.G College Dharamshala</p>
+            <p><b>MID SEM RESULTS</b></p></center>
+
+        <table>
+            <tr>
+                <th>Name:</th>
+                <td id="nameResults"></td>
+            </tr>
+            <tr>
+                <th>Roll No.</th>
+                <td id="rollNoResult"></td>
+            </tr>
+            <tr>
+                <th>Semester</th>
+                <td id="semResults"></td>
+            </tr>
+            <tr>   
+            <th>Subject</th>
+            <th>Marks</th>
+            <th>Grade</th>
+            </tr>
+            <tr>
+                <td>Subject1</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Subject2</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Subject3</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Subject4</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Subject5</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Subject6</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Subject7</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Total</th>
+                <td id="totalResults"></td>
+            </tr>
+            <tr>
+                <th>Remarks:</th>
+                <td id="remarks"></td>
+            </tr>
+        </table>
+
+    </div>
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <h2>VITTI</h2>
+        <h2>School of Computer Science and Engineering, Government P.G. College Dharamshala</h2>
+        <div class="social-links">
+            <a href="https://www.facebook.com"class="social-link" >Facebook</a>
+            <a href="https://www.instagram.com" class="social-link">Instagram</a>
+            <a href="https://www.youtube.com" class="social-link">Youtube</a>
+        </div>
+        <p>@ 2023 VITTI.All rights reserved.</p>
+    </div>
+
+    <script>
+        function showResult(){
+            document.getElementById('container').style.display='none';
+            document.getElementById('result').style.display='block';
+        }
+    </script>
+</body>
+</html>

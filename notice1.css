@@ -1,0 +1,99 @@
+/* navbar */
+
+h2{
+    height:30px;
+    background-color: maroon;
+    color: white;
+    padding: 6px;
+    size :30px;
+    margin:0%;
+}
+
+/* marquee */
+.marq{
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 20px;
+    color: maroon;
+}
+
+.sd  a{
+    margin-top: 10px;
+    margin-right: 15px;
+    color: maroon ;
+    
+}
+
+
+/* div modules */
+.container{
+    height: auto;
+    
+    background : url('pictures/is.jpg');
+    background-size: contain;
+    width:100%;
+    
+    opacity: 25px;
+    margin-top: 10px;
+    margin-left: 0%;
+   
+display: inline-flex;
+
+}
+
+
+
+.box{
+  border:3px solid white;
+  flex: 1;
+  height:320px;
+  width: 700px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 50px;
+  font-size: 20px;
+  font-style: bold;
+  overflow: hidden;
+
+    
+
+}
+
+
+.box h1{
+    text-align: center;
+}
+
+.part-1 a{
+    text-align: left;
+    text-decoration: none;
+    color:white;
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-inline-start: 10px;
+  
+
+}
+
+/* footer */
+
+
+
+/* Footer */
+.footer{
+    background-color: maroon;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .social-links{
+    margin-top: 10px;
+  }
+  .social-link{
+    margin:0 10px;
+    color: white;
+    text-decoration: none;
+  }

@@ -1,0 +1,263 @@
+/* navbar */
+
+h2{
+    height:30px;
+    background-color: maroon;
+    color: white;
+    padding: 6px;
+    size :30px;
+    margin:0%;
+}
+
+/* section1 */
+.img1{
+    height:500px;
+    width: 100%;
+    object-fit:cover;
+    position: relative;
+    top: 0;
+    left:0;
+    image-rendering: crisp-edges;
+    filter:brightness(0.8) contrast(0.8);
+    image-resolution: 198dp;
+    display: block;
+    opacity: 50px;
+   }
+   
+   .img-container{
+       position: relative;
+       text-align: center;
+       opacity: 50px;
+   }
+   
+   .watermark{
+       position:absolute;
+       top: 50%;
+       left:50%;
+       transform: translate(-50%,-50%);
+       font-size: 50px;
+        font-family:fantasy;
+       color:white;
+       pointer-events: none;
+       font-style: bold;
+      
+   }
+
+   .inner{
+    font-size: 30px;
+    font-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    left:10%;
+    width: fit-content;
+   }
+
+   /* section2 */
+
+   .cont1{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: space-between;
+    justify-items: start;
+    flex-direction: row;
+   }
+
+   .cont2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: space-between;
+    justify-items: start;
+    flex-direction: row;
+    
+    
+   }
+   .a{
+    
+        height:auto;
+        width: 600px;
+    border: 1px solid maroon;
+    margin-left: 0%;
+    
+   }
+
+   .ab{
+    height: auto;
+    width: 500px;
+    margin-left: 30px;
+    border: 1px solid maroon;
+
+   }
+   h3{
+    color: maroon;
+    font: 50px;
+    font-family: alegrian;
+    margin-left: 20px;
+   }
+
+   .mails{
+    display: inline-flex;
+   }
+
+   .mail{
+    height:80px;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10px;
+   }
+   .mail1{
+    color: rgb(17, 105, 76);
+   }
+
+   .mail2{
+    color:rgb(64, 62, 62);
+margin-left: 50px;
+font-size: 20px;   }
+
+
+/* section-3 */
+.testbox{
+    border: 1px solid maroon;
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+h4{
+    text-align: center;
+    color:maroon;
+    font-size: 30px;
+    font-family: math;
+}
+
+.carousel{
+    display:contents;
+    overflow: hidden;
+    flex-direction: column;
+    width: 300px;
+}
+
+.test-set{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    transition: transform 2s ease-in-out;
+}
+
+.testimonial{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+   
+
+}
+
+.testimonial img{
+    width: inherit;
+    border-radius: 50%;
+    border-color: black;
+    height: 300px;
+    
+}
+
+
+
+
+/* .carousel{ */
+    /* animation:  slide 60s linear infinite;
+    
+}
+
+@keyframes slide {
+
+    0%,100%{
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateX(0);
+    }
+    33.333%{
+        transform: translateX(-100%);
+    }
+    53.33%{
+        transform: translateX(-100%);
+    }
+    66.666%{
+        transform: translateX(-200%);
+    }
+    86.66%{
+        transform: translateX(-200%);
+    }
+    
+    
+} */
+
+/* Footer */
+.footer{
+    background-color: maroon;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .social-links{
+    margin-top: 10px;
+  }
+  .social-link{
+    margin:0 10px;
+    color: white;
+    text-decoration: none;
+  }
+
+  
+  /* faculty */
+
+  .details{
+    
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+    align-content: center;
+    font-size: 15px;
+    border: 2px solid maroon;
+    block-size: auto;
+
+  }
+
+  .details td{
+    border: 2px solid maroon;
+    text-align: center;
+  }
+
+  .guest{
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+    align-content: center;
+    font-size: 15px;
+    border: 2px solid maroon;
+    block-size: auto;
+  }
+
+  .guest td{
+    border: 2px solid maroon;
+    text-align: center;
+  }
+
+  .ki{
+    text-align: center;
+    font-size: xx-large;
+  }
+
+  

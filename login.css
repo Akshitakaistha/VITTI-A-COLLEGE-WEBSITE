@@ -1,0 +1,197 @@
+/* navbar */
+h2{
+    height:30px;
+    background-color: maroon;
+    color: white;
+    padding: 6px;
+    size :30px;
+    margin:0%;
+}
+
+/* form */
+
+h3{
+    text-align: center;
+    font-size: 20px;
+    color: maroon;
+}
+
+.container{
+    background-color: white;
+    padding: 20px;
+    border:2px solid maroon;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0 ,0,0 ,0.2);
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    
+}
+
+h4{
+    margin-top: 0;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px -10px;
+    border:1px solid maroon;
+    border-radius: 5px;
+}
+
+button{
+    background-color: maroon;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: grey;
+    color: black;
+}
+
+.switch-link{
+    margin-top: 10px;
+    text-decoration: none;
+    color:rgb(39, 39, 54);
+    font-size: 14px;
+}
+
+.create-account{
+margin-top: 20px;
+font-size: 14px;
+color:rgb(39, 39, 54);
+text-decoration: none;
+}
+
+
+/* sign up form */
+
+.Signup-form{
+    height: auto;
+    width: 650px;
+    border: 2px solid maroon;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 28%;
+    display: none;
+}
+
+.Signup-form h4{
+    font-size: 40px;
+    font-weight: bold;
+    color: maroon;
+}
+
+.Signup-form label{
+    margin-left: 20px;
+   
+}
+
+.Signup-form input{
+    width:580px;
+    margin-left: 20px;
+}
+
+.Signup-form button{
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-style: bold;
+    margin-left: 40px;
+    margin-right: 20px;
+    width: 560px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.Signup-form .create-account{
+    margin-left: 200px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: maroon;
+}
+
+/* Forget */
+
+.Forget{
+    height: auto;
+    width: 650px;
+    border: 2px solid maroon;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 28%;
+    display: none;
+   
+}
+
+.Forget h4{
+    font-size: 40px;
+    font-weight: bold;
+    color: maroon;
+}
+
+.Forget label{
+    margin-left: 20px;
+   
+}
+
+.Forget input{
+    width:580px;
+    margin-left: 20px;
+}
+
+.Forget button{
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-style: bold;
+    margin-left: 40px;
+    margin-right: 20px;
+    width: 560px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.Forget .create-account{
+    margin-left: 200px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: maroon;
+}
+
+
+
+
+/* footer */
+.footer{
+    background-color: maroon;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 90px;
+  }
+  .social-links{
+    margin-top: 10px;
+  }
+  .social-link{
+    margin:0 10px;
+    color: white;
+    text-decoration: none;
+  }
+

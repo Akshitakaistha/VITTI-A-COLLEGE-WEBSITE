@@ -1,0 +1,104 @@
+/* Navbar */
+h2{
+    height:30px;
+    background-color: maroon;
+    color: white;
+    padding: 6px;
+    size :30px;
+    margin:0%;
+}
+
+
+/* table list*/
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+table{
+    margin:20px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th,td{
+    border: 2px solid maroon;
+    text-align: left;
+    padding: 8px;
+}
+
+/* model */
+
+.view-link{
+    cursor: pointer;
+    background-color: maroon;
+    color: white;
+    border:none;
+    padding: 5px 10px;
+
+
+}
+
+.view-link:hover{
+    background-color:grey;
+}
+.overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+.pdf-container{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius:5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+#pdf-frame{
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+
+#close.pdf{
+    background-color:maroon;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: absolute;
+    top:5px;
+    right: 10px;
+}
+
+#close.pdf:hover{
+    background-color:maroon;
+}
+
+/* footer */
+.footer{
+    background-color: maroon;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .social-links{
+    margin-top: 10px;
+  }
+  .social-link{
+    margin:0 10px;
+    color: white;
+    text-decoration: none;
+  }

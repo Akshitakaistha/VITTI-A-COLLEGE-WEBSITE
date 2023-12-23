@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Papers</title>
+    <link rel="stylesheet" href="question.css">
+    
+</head>
+<body>
+    <!-- navbar -->
+      
+    <div class="navbar1">
+        <h2><center>VITTI: Question Papers</center></h2>
+        </div>
+<!-- Subject List -->
+
+<h1>List of Subjects</h1>
+<table>
+    <tr>
+   <th>Subject Name</th>
+   <th>Subject Code</th>
+   <th>View</th>
+   <th>Download</th>
+   
+   </tr>
+<!-- 1 -->
+   <tr>
+    <td>Subject 1</td> 
+    <td>Subject1</td>
+   <td><button class="view-link">View</button></td>
+    <td><a href="" Download >Download</a></td>
+   </tr>
+<!--2  -->
+<tr>
+    <td>Subject 2</td> 
+    <td>Subject1</td>
+   <td><button class="view-link">View</button></td>
+    <td><a href="" Download >Download</a></td>
+   </tr>
+<!-- 3 -->
+<tr>
+    <td>Subject 3</td> 
+    <td>Subject1</td>
+   <td><button class="view-link">View</button></td>
+    <td><a href="" Download >Download</a></td>
+   </tr>
+<!-- 4 -->
+<tr>
+    <td>Subject 4</td> 
+    <td>Subject1</td>
+   <td><button class="view-link">View</button></td>
+    <td><a href="" Download >Download</a></td>
+   </tr>
+<!-- 5 -->
+<tr>
+    <td>Subject 5</td> 
+    <td>Subject1</td>
+   <td><button class="view-link">View</button></td>
+    <td><a href="" Download >Download</a></td>
+   </tr>
+<!-- 6 -->
+<tr>
+    <td>Subject 6</td> 
+    <td>Subject1</td>
+   <td><button class="view-link">View</button></td>
+    <td><a href="" Download >Download</a></td>
+   </tr>
+<!-- 7 -->
+<tr>
+    <td>Subject 7</td> 
+    <td>Subject1</td>
+   <td><button class="view-link">View</button></td>
+    <td><a href="" Download >Download</a></td>
+   </tr>
+<!-- 8 -->
+<tr>
+    <td>Subject 8</td> 
+    <td>Subject1</td>
+   <td><button class="view-link">View</button></td>
+    <td><a href="" Download >Download</a></td>
+   </tr>
+<!-- 9 -->
+<tr>
+    <td>Subject 9</td> 
+    <td>Subject1</td>
+   <td><button class="view-link">View</button></td>
+    <td><a href="" Download >Download</a></td>
+   </tr>
+<!-- 10 -->
+<tr>
+    <td>Subject 10</td> 
+    <td>Subject1</td>
+   <td><button class="view-link">View</button></td>
+    <td><a href="" Download >Download</a></td>
+   </tr>
+<!-- 11 -->
+<tr>
+    <td>Subject 11</td> 
+    <td>Subject1</td>
+   <td><button class="view-link">View</button></td>
+    <td><a href="" Download >Download</a></td>
+   </tr>
+<!-- 12 -->
+<tr>
+    <td>Subject 12</td> 
+    <td>Subject1</td>
+   <td><button class="view-link">View</button></td>
+    <td><a href="" Download >Download</a></td>
+   </tr>
+<!-- 13 -->
+<tr>
+    <td>Subject 13</td> 
+    <td>Subject1</td>
+    <td><button class="view-link">View</button></td>
+    <td><a href="" Download >Download</a></td>
+   </tr>
+<!-- 14 -->
+<tr>
+    <td>Subject 14</td> 
+    <td>Subject1</td>
+    <td><button class="view-link">View</button></td>
+    <td><a href="" Download >Download</a></td>
+   </tr>
+</table>
+
+<!-- model -->
+
+<div class="overlay" id="pdf-overlay">
+    <div class="pdf-container">
+        <button id="close.pdf">Close</button>
+        <iframe id="pdf-frame" src="" frameborder="0"></iframe>
+    </div>
+</div>
+
+<!-- footer -->
+
+<div class="footer">
+    <h2>VITTI</h2>
+    <h2>School of Computer Science and Engineering, Government P.G. College Dharamshala</h2>
+    <div class="social-links">
+        <a href="https://www.facebook.com"class="social-link" >Facebook</a>
+        <a href="https://www.instagram.com" class="social-link">Instagram</a>
+        <a href="https://www.youtube.com" class="social-link">Youtube</a>
+    </div>
+    <p>@ 2023 VITTI.All rights reserved.</p>
+</div>
+
+
+<!-- script -->
+<script>
+const viewButton=document.querySelectorAll('.view-link')
+const overlay=document.getElementById('pdf-overlay')
+const pdfIframe=document.getElementById('pdf-frame')
+const closePdfButton=document.getElementById('close.pdf')
+
+
+
+viewButton.forEach((button,index) =>{
+    button.addEventListener('click',() =>{
+        const pdfFilePath='ok.pdf';
+        pdfIframe.src=pdfFilePath;
+        overlay.style.display='block';
+        document.body.style.overflow='hidden';
+    });
+});
+
+closePdfButton.addEventListener('click', () =>{
+    overlay.style.display='none';
+    pdfIframe.src='';
+    document.bosy.style.overflow='auto';
+})
+</script>
+</body>
+</html>

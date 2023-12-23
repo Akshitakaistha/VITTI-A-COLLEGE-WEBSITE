@@ -1,0 +1,97 @@
+/* navbar */
+h2{
+    height:40px;
+    background-color: maroon;
+    color: white;
+    padding: 6px;
+    size :30px;
+    margin:0%;
+    font-size: 30px;
+}
+
+/* about */
+.h2{
+    text-align: center;
+    font-size: 80px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 30px;
+    padding: 0 5px;
+    height: 50px;
+  }
+
+  .name{
+    margin-top: 90px;
+    font-size: 30px;
+    color: grey;
+    
+  }
+/* intro */
+.ContIntro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 80%;
+    margin-left: 100px;
+   
+}
+  .intro{
+    flex: 1;
+    padding: 20px;
+    
+    
+  }
+
+  .intro img{
+
+    height: 400px;
+    width:300px;
+    margin-left: 50px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 5px 5px rgb(92, 87, 87);
+  }
+
+  .intro p{
+    font-size: 25px;
+    font-style: bold;
+    margin-left: 75px;
+    justify-items: center;
+    
+  }
+
+  .box{
+    flex: 2;
+  width: 900px;
+    border: 1px solid maroon;
+    text-align: left;
+   width: 900px;
+    
+
+
+  }
+
+  .box h3{
+    margin-left: 20px;
+  }
+
+  .box p{
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  /* Footer */
+  .footer{
+    background-color: maroon;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .social-links{
+    margin-top: 10px;
+  }
+  .social-link{
+    margin:0 10px;
+    color: white;
+    text-decoration: none;
+  }
